@@ -1,0 +1,116 @@
+/* .navbar{
+    margin: 10px;
+    text-align: end;
+    
+}
+.navbar>.navbar-link-item{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 280px;
+    height: 270px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.App{
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    outline: none;
+    margin: 5px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img{
+    width: 170px;
+    height: 160px;
+    margin: 10px;
+    border-radius: 50%;
+}
+h4{
+    margin-top: 10px;
+    text-shadow: 1px 1px 0 rgb(250, 9, 9),
+    1px 1px 0 rgb(9, 229, 86),
+   1px 1px 0 rgb(130, 187, 234),
+  1px 1px 0 rgb(22, 232, 15);
+}
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.previousbutton{
+    border: none;
+    margin: 2px;
+    color: black;
+}
+.previousbutton:hover{
+    color:rgb(13, 217, 13)
+}
+@media (max-width: 716px)  {
+    .container{
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+@media (max-width: 540px)  {
+    .container{
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+@media (max-width: 400px)  {
+    .container{
+        width: 90%;
+        height:90%;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+@media (max-width: 300px)  {
+    .container{
+        width: 90%;
+        height:100%;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
